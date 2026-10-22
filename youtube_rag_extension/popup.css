@@ -1,0 +1,56 @@
+
+body {
+  width: 360px;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  color: #e5e7eb;
+  background: #111827;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #06b6d4;
+  color: #082f49;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#summarize {
+  width: 100%;
+}
+
+.chat {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+input {
+  min-width: 0;
+  flex: 1;
+  padding: 9px;
+  border-radius: 6px;
+  border: 1px solid #374151;
+  background: #1f2937;
+  color: white;
+}
+
+#status {
+  color: #9ca3af;
+  font-size: 12px;
+}
+
+#result {
+  margin-top: 12px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  max-height: 360px;
+  overflow-y: auto;
+}

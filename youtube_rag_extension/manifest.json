@@ -1,0 +1,13 @@
+
+{
+  "manifest_version": 3,
+  "name": "YouTube AI Assistant",
+  "version": "1.0.0",
+  "description": "Summarize YouTube videos and ask questions using local AI.",
+  "permissions": ["activeTab"],
+  "host_permissions": ["http://127.0.0.1:8000/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "YouTube AI Assistant"
+  }
+}
